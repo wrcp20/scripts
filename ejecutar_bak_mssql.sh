@@ -1,4 +1,9 @@
 #!/bin/bash                                                                                                                                                   
+/**
+*AUTOR : wrcp20@gmail.com
+*release : 1.0
+*date : 22112020
+*/
 #echo 'RESPALDO NORMAL'                                                                                                                                       
 #sqlcmd -H localhost -U usuario -P pass -Q "BACKUP DATABASE [df] TO DISK = N'd:\test.bak' WITH NOFORMAT, NOINIT, NAME = 'DEMOBAK', SKIP, 
 NOREWIND, NOUNLOAD, STATS = 10"                                                                                                                               
